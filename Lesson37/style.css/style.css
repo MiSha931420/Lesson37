@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    background-color: burlywood;
+    min-height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col{
+    width: 25%;
+    /*border-color: red;*/
+    padding: 10px;
+}
+
+.card{
+    width: 100%;
+    height: 10vh;
+    background-color:blue;
+}
+
+@media (max-width:1024px) {
+    .col{
+        width: 50%;
+    }
+}
+@media (max-width:430px){
+    .col{
+        width: 100%;
+    }
+}
